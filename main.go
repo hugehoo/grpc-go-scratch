@@ -35,6 +35,9 @@ func main() {
 	case "memory-reuse":
 		fmt.Println("Running Memory Reuse Demo...")
 		goroutine.MemoryReuse()
+	case "stream-chunk":
+		fmt.Println("Running Stream Chunk Demo...")
+		goroutine.StreamChunks()
 	default:
 		fmt.Println("Usage: go run main.go -demo <demo-name>")
 		fmt.Println("Available demos:")
